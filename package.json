@@ -1,0 +1,33 @@
+{
+  "name": "assignment",
+  "version": "1.0.0",
+  "description": "Node project to send notifications when the temperature of beers fall out of temperature range",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha 'test/*.js'",
+    "test:watch": "mocha -w 'test/*.js'",
+    "start:dev": "node src/listener.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manishanker/assignment.git"
+  },
+  "author": "Mani Shanker Talusani",
+  "license": "ISC",
+  "dependencies": {
+    "events": "^2.0.0"
+  },
+  "devDependencies": {
+    "mocha": "^5.0.1",
+    "should": "^13.2.1",
+    "sinon": "^4.3.0",
+    "assert": "^1.4.1"
+  },
+  "bugs": {
+    "url": "https://github.com/manishanker/assignment/issues"
+  },
+  "homepage": "https://github.com/manishanker/assignment#readme"
+}
