@@ -24,12 +24,16 @@ Sends notifications if
 
 ## How to run
 
+
+change the value of 'test' inside config file to false
 ```
 npm run start:dev
 ```
 
 ## Tests
 
+
+Change the value of 'test' inside config file to true
 ```
 npm run test
 ```
